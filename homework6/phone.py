@@ -12,4 +12,4 @@ class Phone(Field):
         if not number.isdigit():
             raise ValueError("The phone number must contain only numbers")
 
-        return number
+        return number1
